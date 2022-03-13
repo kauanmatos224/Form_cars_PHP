@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> Nos contate</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/Nos_constate.css">
+</head>
+
+
+
+<body>
+	<form id="frm_contact" method="POST" action="PHP.php">
+		<h1>Nos contate</h1>
+		<div id="frm_contact_elements">
+			<label for="txtName">Nome:</label>
+			<input type="text" id="txtName" name="txtName">
+
+			<label for="txtEmail">Email:</label>
+			<input type="text" id="txEmail" name="txtEmail">
+
+			<label for="txtTel">Telefone:</label>
+			<input type="tel" id="txtTel" name="txtTel">
+
+			<label for="txtSite">Website:</label>
+			<input type="url" id="txtSite" name="txtSite">
+
+			<label for="inpBorn">Data de nascimento:</label>
+			<input type="date" id="inpBorn" name="inpBorn">
+
+			<label for="optCar">Carro:</label>
+			<select name="optCar" id="optCar">
+				<option value="Corsa">Corsa</option>
+				<option value="CorsaSedan">Corsa Sedan</option>
+				<option value="Cybertruck">Cybertruck</option>
+			</select>
+
+			<label for="txtObs">Observações:</label>
+			<textarea id="txtObs" name="txtObs"></textarea>
+			
+			<label for="cbChannel">Por onde aceita receber notificações:</label>
+			<select name="cbChannel[ ]" size="3" multiple="multiple">
+				<option value="sms">SMS</option>
+				<option value="email">Email</option>
+				<option value="facebook">Facebook</option>
+			</select>
+			<input type="submit" id="btnSend" name="btnSend" value="Send">
+			</div>
+		</form>
+
+	</body>
+</html>
